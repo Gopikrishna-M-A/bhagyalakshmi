@@ -8,11 +8,11 @@ export default function Home() {
   return (
     <div className='container mx-auto px-4'>
       {/* Hero Section */}
-      <section className='py-12 flex flex-col w-full relative z-10'>
-        <div className='text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-medium sm:  mb-4 lg:ml-20 xl:ml-40 w-fit'>
+      <section className='sm:py-12 flex flex-col w-full relative z-10'>
+        <div className='text-2xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold sm:font-medium sm:  sm:mb-4 lg:ml-20 xl:ml-40 w-fit'>
           CONSTRUCTION <GiPolarStar className='inline-block' />
         </div>
-        <div className='text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-medium mb-4 mx-auto'>
+        <div className='text-2xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold sm:font-medium mb-4 sm:mx-auto'>
           PROJECT MANAGEMENT
         </div>
         <div className='mb-6 text-gray-600 max-w-2xl mx-auto'>
@@ -104,8 +104,8 @@ export default function Home() {
 
       {/* Project Showcase Section */}
       <section className='mb-12'>
-        <div className='grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 items-end'>
-          <Card className='bg-zinc-700 h-96 overflow-hidden'>
+        <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 items-end'>
+          <Card className='bg-zinc-700 h-64 lg:h-96 overflow-hidden'>
             <CardContent className='p-2 flex flex-col h-full'>
               <h3 className='px-4 font-bold text-lg py-2 leading-5 text-white'>
                 Eco Works <br /> Business Center
@@ -121,7 +121,7 @@ export default function Home() {
               </div>
             </CardContent>
           </Card>
-          <Card className='bg-black text-white h-96 lg:h-44'>
+          <Card className='bg-black text-white h-64 lg:h-44'>
             <CardContent className='p-6'>
               <h3 className='font-bold text-lg mb-2'>ARCDO CPM</h3>
               <p className='text-sm'>
@@ -130,7 +130,7 @@ export default function Home() {
               </p>
             </CardContent>
           </Card>
-          <Card className='bg-zinc-700 h-96 lg:h-[350px] '>
+          <Card className='bg-zinc-700 h-64 lg:h-[350px] '>
             <CardContent className='p-6 flex items-center justify-center h-full relative'>
               <div className='text-center flex flex-col absolute bottom-2 left-2 z-10 bg-white rounded-2xl  p-2'>
                 <p className='text-xs text-gray-600'>Average Rating</p>
@@ -150,7 +150,7 @@ export default function Home() {
               />
             </CardContent>
           </Card>
-          <Card className='bg-zinc-700 h-96 overflow-hidden'>
+          <Card className='bg-zinc-700 h-64 overflow-hidden'>
             <CardContent className='p-2 flex flex-col h-full'>
               <div className='flex flex-col gap-1 py-2'>
                 <Button
@@ -217,8 +217,8 @@ export default function Home() {
           className='w-full h-auto rounded-lg'
         />
         <div className='w-full lg:absolute bottom-4 left-4 grid grid-cols-2 md:grid-cols-3 gap-4 mt-10 lg:mt-0 lg:px-32 xl:px-40 md:pb-10'>
-          <Card className='backdrop-blur-md bg-white/70 shadow-none border-none rounded-3xl'>
-            <CardContent className='p-6'>
+          <Card className='backdrop-blur-md bg-white/70 shadow-none border-none rounded-lg md:rounded-3xl'>
+            <CardContent className='p-2 sm:p-6'>
               <h3 className='text-lg font-bold mb-3'>Onset Services</h3>
               <p className='text-gray-700 text-sm'>
                 Our initial project setup and planning services lay the
@@ -227,8 +227,8 @@ export default function Home() {
               </p>
             </CardContent>
           </Card>
-          <Card className='backdrop-blur-md bg-white/70 shadow-none border-none rounded-3xl'>
-            <CardContent className='p-6'>
+          <Card className='backdrop-blur-md bg-white/70 shadow-none border-none rounded-lg md:rounded-3xl'>
+            <CardContent className='p-2 sm:p-6'>
               <h3 className='text-lg font-bold mb-3'>Ongoing Solutions</h3>
               <p className='text-gray-700 text-sm'>
                 Our initial project setup and planning services lay the
@@ -237,8 +237,8 @@ export default function Home() {
               </p>
             </CardContent>
           </Card>
-          <Card className='backdrop-blur-md bg-white/70 shadow-none border-none rounded-3xl'>
-            <CardContent className='p-6'>
+          <Card className='backdrop-blur-md bg-white/70 shadow-none border-none rounded-lg md:rounded-3xl'>
+            <CardContent className='p-2 sm:p-6'>
               <h3 className='text-lg font-bold mb-3'>Repetitive Services</h3>
               <p className='text-gray-700 text-sm'>
                 Our initial project setup and planning services lay the
@@ -247,8 +247,8 @@ export default function Home() {
               </p>
             </CardContent>
           </Card>
-          <Card className='backdrop-blur-md bg-white/70 shadow-none border-none rounded-3xl md:hidden'>
-            <CardContent className='p-6'>
+          <Card className='backdrop-blur-md bg-white/70 shadow-none border-none rounded-lg md:rounded-3xl md:hidden'>
+            <CardContent className='p-2 sm:p-6'>
               <h3 className='text-lg font-bold mb-3'>Repetitive Services</h3>
               <p className='text-gray-700 text-sm'>
                 Our initial project setup and planning services lay the
@@ -279,7 +279,7 @@ export default function Home() {
 
       {/* Project Gallery */}
       <section className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 items-end py-10'>
-        <Card className='bg-zinc-700 h-72 xl:h-96 overflow-hidden xl:mb-10'>
+        <Card className='bg-zinc-700 h-64 xl:h-96 overflow-hidden xl:mb-10'>
           <CardContent className='p-2 flex flex-col h-full relative'>
             <Image
               src='/2.jpg'
@@ -289,7 +289,7 @@ export default function Home() {
             />
           </CardContent>
         </Card>
-        <Card className='bg-zinc-700 h-72 xl:h-96 overflow-hidden xl:mb-20'>
+        <Card className='bg-zinc-700 h-64 xl:h-96 overflow-hidden xl:mb-20'>
           <CardContent className='p-2 flex flex-col h-full relative'>
             <Image
               src='/2.jpg'
@@ -299,7 +299,7 @@ export default function Home() {
             />
           </CardContent>
         </Card>
-        <Card className='bg-zinc-700 h-72 xl:h-96 overflow-hidden xl:mb-10'>
+        <Card className='bg-zinc-700 h-64 xl:h-96 overflow-hidden xl:mb-10'>
           <CardContent className='p-2 flex flex-col h-full relative'>
             <Image
               src='/2.jpg'
@@ -309,7 +309,7 @@ export default function Home() {
             />
           </CardContent>
         </Card>
-        <Card className='bg-zinc-700 h-72 xl:h-96 overflow-hidden'>
+        <Card className='bg-zinc-700 h-64 xl:h-96 overflow-hidden'>
           <CardContent className='p-2 flex flex-col h-full relative'>
             <Image
               src='/2.jpg'
