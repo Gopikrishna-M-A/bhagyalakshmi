@@ -26,7 +26,7 @@ export default function Header() {
   return (
     <header className="p-4 bg-[#f7f7f5]">
       <div className="container mx-auto flex justify-between items-center">
-      <ScreenSizeIndicator />
+      {/* <ScreenSizeIndicator /> */}
         <Link href="/" className="md:text-2xl font-bold flex gap-1 items-center uppercase">
         <Cuboid  className='md:w-10 md:h-10'/>
         BLA Builders
