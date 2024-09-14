@@ -193,9 +193,11 @@ export default function Home() {
             Our construction services that we provide Full Spectrum of
             Construction Solutions.
           </h2>
-          <Button className='bg-black text-white hover:bg-gray-800 w-fit px-7 md:py-6 rounded-full'>
+         <Link href='/contact'>
+         <Button className='bg-black text-white hover:bg-gray-800 w-fit px-7 md:py-6 rounded-full'>
             START A PROJECT
           </Button>
+          </Link>
         </div>
         <div className='flex flex-col justify-end col-span-3 xl:-ml-14'>
           <p className='text-gray-600'>
