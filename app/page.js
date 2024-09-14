@@ -20,10 +20,10 @@ export default function Home() {
             ARCSO has always Foundations provided structural support for
             buildings and infrastructure. There are different types of
             foundations, including shallow foundations and deep foundations
-            depending on the project's requirements.
+            depending on the project&apos;s requirements.
           </p>
           <Button className='rounded-full sm:py-6 px-14 w-fit mt-5'>
-            LET'S GO
+            LET&apos;S GO
           </Button>
         </div>
 
