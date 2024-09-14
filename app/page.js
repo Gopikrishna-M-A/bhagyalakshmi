@@ -66,7 +66,7 @@ export default function Home() {
 
       <section className='mb-10'>
         <div className='flex justify-end'>
-          <Button variant='outline' className='rounded-full'>
+          <Button variant='outline' className='rounded-full hidden sm:block'>
             Design Planning
           </Button>
           <Button variant='outline' className='rounded-full'>
