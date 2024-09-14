@@ -33,7 +33,7 @@ export default function Home() {
       </section>
 
       {/* Main Image Section */}
-      <section className='mb-5 relative -mt-28 sm:-mt-36 md:-mt-44'>
+      <section className='mb-5 relative -mt-14 sm:-mt-36 md:-mt-44'>
         <Image
           src='/1.png'
           alt='Modern house exterior'
