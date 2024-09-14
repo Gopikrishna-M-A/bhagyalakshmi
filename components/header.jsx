@@ -24,7 +24,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="p-4 bg-[#f7f7f5]">
+    <header className="p-4 bg-[#f7f7f5] mx-auto w-full">
       <div className="container mx-auto flex justify-between items-center">
       {/* <ScreenSizeIndicator /> */}
         <Link href="/" className="md:text-2xl font-bold flex gap-1 items-center uppercase">
