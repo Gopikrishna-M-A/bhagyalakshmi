@@ -287,7 +287,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black opacity-40 z-10" />
         <div className="absolute inset-0 transition-transform duration-300 ease-in-out group-hover:scale-110">
           <Image
-            src='/9.jpg'
+            src='/2.jpg'
             alt='Eco Works Business Center'
             layout='fill'
             objectFit='cover'
@@ -300,7 +300,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black opacity-40 z-10" />
         <div className="absolute inset-0 transition-transform duration-300 ease-in-out group-hover:scale-110">
           <Image
-            src='/10.jpg'
+            src='/2.jpg'
             alt='Eco Works Business Center'
             layout='fill'
             objectFit='cover'
@@ -313,7 +313,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black opacity-40 z-10" />
         <div className="absolute inset-0 transition-transform duration-300 ease-in-out group-hover:scale-110">
           <Image
-            src='/11.jpg'
+            src='/2.jpg'
             alt='Eco Works Business Center'
             layout='fill'
             objectFit='cover'
@@ -326,7 +326,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black opacity-40 z-10" />
         <div className="absolute inset-0 transition-transform duration-300 ease-in-out group-hover:scale-110">
           <Image
-            src='/12.jpg'
+            src='/2.jpg'
             alt='Eco Works Business Center'
             layout='fill'
             objectFit='cover'
