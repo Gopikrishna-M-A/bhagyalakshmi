@@ -89,7 +89,7 @@ export default function Home() {
         <div className='flex flex-col lg:justify-start'>
           <h2 className='text-2xl lg:text-3xl font-bold md:mb-4'>
             Good architectural and engineering design is based on deep
-            understanding of the users' need.
+            understanding of the users need.
           </h2>
         </div>
         <div className='flex flex-col lg:justify-end'>
