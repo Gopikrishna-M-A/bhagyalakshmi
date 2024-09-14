@@ -42,7 +42,7 @@ export default function Home() {
           className='w-full h-auto rounded-lg'
         />
 
-        <div className='absolute top-4 right-4 rounded-full p-2'>
+        <div className='hidden sm:block absolute top-4 right-4 rounded-full p-2'>
           <div className='relative w-14 h-14 sm:h-20 sm:w-20 lg:w-32 lg:h-32'>
             <div className='absolute inset-0 flex items-center justify-center'>
               <FaPlay className='w-3 h-3 sm:h-5 sm:w-5 lg:w-7 lg:h-7 text-gray-800' />
